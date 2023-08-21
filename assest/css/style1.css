@@ -1,5 +1,7 @@
                         /* Blog page css start*/
-                        
+                        .header-fts{
+                            margin-top: 200px;
+                        }
                         .articles {
                             padding-top: 39px;
                         }
@@ -36,7 +38,11 @@
                             line-height: 130%;
                             color: rgba(0, 0, 0, 0.9);
                         }
-                        
+.card-book p span{
+    padding: 0 !important;
+    margin: auto;
+    font-size: 14px !important;
+}
                         .article-pragraph span {
                             font-family: 'Poppins-Regular';
                             font-style: normal;
@@ -505,11 +511,13 @@ top: 112px; */
                             font-size: 18px;
                             line-height: 12px;
                             text-align: center;
+                            transition: .3s;
                         }
                         
                         .card-btn a:hover {
                             background-color: #fff;
                             color: #38B000;
+                            transition: all .3s ease-in-out;
                         }
                         
                         .conclusion {
@@ -578,6 +586,7 @@ top: 112px; */
                             background: #3B5999;
                             padding: 10px 24px 10px 11.25px;
                             border: 1px solid transparent;
+                            transition: .3s;
                         }
                         
                         .share-article-btn-facebok a:hover {
@@ -585,12 +594,14 @@ top: 112px; */
                             padding: 10px 24px 10px 11.25px;
                             color: #3B5999;
                             border: 1px solid #3B5999;
+                            transition: all .3s ease-in-out;
                         }
                         
                         .share-article-btn-twitter a {
                             background: #55ACEE;
                             padding: 10px 35px 10px 23.25px;
                             border: 1px solid transparent;
+                            transition: .3s;
                         }
                         
                         .share-article-btn-twitter a:hover {
@@ -598,12 +609,14 @@ top: 112px; */
                             padding: 10px 35px 10px 23.25px;
                             color: #55ACEE;
                             border: 1px solid #55ACEE;
+                            transition: all .3s ease-in-out;
                         }
                         
                         .share-article-btn-whatsapp a {
                             background: #25D366;
                             padding: 10px 22px 10px 10.25px;
                             border: 1px solid transparent;
+                            transition: .3s;
                         }
                         
                         .share-article-btn-whatsapp a:hover {
@@ -611,12 +624,14 @@ top: 112px; */
                             padding: 10px 22px 10px 10.25px;
                             color: #25D366;
                             border: 1px solid #25D366;
+                            transition: all .3s ease-in-out;
                         }
                         
                         .share-article-btn-telegrams a {
                             background: #179CDE;
                             padding: 10px 24px 10px 11.25px;
                             border: 1px solid transparent;
+                            transition: .3s;
                         }
                         
                         .share-article-btn-telegrams a:hover {
@@ -624,12 +639,14 @@ top: 112px; */
                             padding: 10px 24px 10px 11.25px;
                             color: #179CDE;
                             border: 1px solid #179CDE;
+                            transition: all .3s ease-in-out;
                         }
                         
                         .share-article-btn-linkedin a {
                             background: #0478B5;
                             padding: 10px 31px 10px 18.25px;
                             border: 1px solid transparent;
+                            transition: .3s;
                         }
                         
                         .share-article-btn-linkedin a:hover {
@@ -637,6 +654,7 @@ top: 112px; */
                             padding: 10px 31px 10px 18.25px;
                             color: #0478B5;
                             border: 1px solid #0478B5;
+                            transition:all .3s ease-in-out;
                         }
                         
                         .chat-box {
@@ -989,10 +1007,13 @@ top: 112px; */
                         .red i {
                             padding-right: 2px !important;
                         }
-                        
+                        .plus-circle{
+                            transition: .3s;
+                        }
                         .plus-circle:hover {
                             background-color: #38B000;
                             color: #fff;
+                            transition: all .3s ease-in-out;
                         }
                         
                         .education-book {
@@ -1057,4 +1078,72 @@ top: 112px; */
                         .tranding-span-div span {
                             display: flex;
                             align-items: end;
+                        }
+                        @media(max-width:992px){
+                            .fa-angles-right,.fa-angles-left{
+                                display: none !important;
+                            }
+                        }
+                        @media(max-width:576px){
+                            h2{
+                                font-size: 24px !important;
+                            }
+                            .doubble-sign h3,.doubble-sign1 h3{
+                                text-align: center !important;
+                                padding-top: 25px !important;
+                            }
+                            .doubble-sign1 p{
+                                padding-left: 15px !important;
+                            }
+                            .tab-pragraph{
+                                font-size: 12px !important;
+                                text-align: start !important;
+                                padding-top: 0 !important;
+                            }
+                            .tab-row span{
+                                /* display: inline-block !important; */
+                                padding-left: 3px !important;
+                            }
+                            .row-border .row-border-img,.row-border-img{
+                                width: 115px !important;
+                                height: 82px !important;
+                            }
+                            .latesnews-asidebar1 .row-border-img{
+                                margin-top: 15px;
+                            }
+                          .rich-picks-monthly-table .plus-circle{
+                            font-size: 12px;
+                          }
+                          .latesnews-asidebar1 .asidpragraph,#asidpragraph1 .asidpragraph1{
+                            font-size: 12px !important;
+                            text-align: start !important;
+                            padding-top: 10px !important;
+                            padding-left: 32px;
+                            padding-bottom: 8px;
+                          }
+                          #asidpragraph1 span{
+                            padding-left: 30px;
+                            padding-top: 6px;
+                          }
+                          .header-fts{
+                            margin-top: 150px;
+                        }
+                        .article-img img{
+                            padding-top: 10px !important;
+                        }
+                        .article-pragraph h4{
+                            line-height: 24px;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                        }
+                        .img-links{
+                            top: 34px !important;
+                        }
+                        .asidpragraph1{
+                            letter-spacing: .1px;
+                            text-align: start !important;
+                        }
+                        .popular-article{
+                            margin-top: 15px !important;
+                        }
                         }

@@ -13,77 +13,81 @@
 <body>
     <main>
         <!-- Header start-->
+
+         
         <header>
-            <nav class="container-fulid">
-                <div class="container">
-                    <div class="row main-nav">
-                        <div class="col-sm-6 col-xs-12">
-                            <ul class="navbar-top">
-                                <li class="nav-link">
-                                    <a href="http://www.facebook.com" class="nav-itms"><i class="fa-brands fa-facebook-f top-navitms" aria-label="facebook" ></i></a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="http://www.youtube.com" class=" nav-itms"><i class="fa-brands fa-youtube top-navitms" aria-label="youtube"></i></a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="http://www.instagram.com" class=" nav-itms"><i class="fa-brands fa-instagram top-navitms" aria-label="instagram"></i></a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="http://www.twitter.com" class=" nav-itms"><i class="fa-brands fa-twitter top-navitms" aria-label="twitter"></i></a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="http://www.linkedin.com" class=" nav-itms"><i class="fa-brands fa-linkedin-in nav-linkden top-navitms" aria-label="linkedin"></i></a>
-                                </li>
-                                <li class="nav-link">
-                                    <a href="http://www.Snapchat.com" class=" nav-itms"><i class="fa-brands  fa-snapchat top-navitms" aria-label="Snapchat"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <span> RICH PICKS Giveaways</span>
+            <nav>
+                <div class="container-fulid">
+                    <div class="container">
+                        <div class="row main-nav">
+                            <div class="col-sm-6 social_link">
+                                <ul class="navbar-top">
+                                    <li class="nav-link">
+                                        <a href="http://www.facebook.com" class="nav-itms"><i class="fa-brands fa-facebook-f top-navitms"  aria-label="facebook" ></i></a>
+                                    </li>
+                                    <li class="nav-link">
+                                        <a href="http://www.youtube.com" class=" nav-itms"><i class="fa-brands fa-youtube top-navitms"  aria-label="youtube"></i></a>
+                                    </li>
+                                    <li class="nav-link">
+                                        <a href="http://www.instagram.com" class=" nav-itms"><i class="fa-brands fa-instagram-square top-navitms"></i></a>
+                                    </li>
+                                    <li class="nav-link">
+                                        <a href="http://www.twitter.com" class=" nav-itms"><i class="fa-brands fa-twitter top-navitms"  aria-label="twitter"></i></a>
+                                    </li>
+                                    <li class="nav-link">
+                                        <a href="http://www.linkedin.com" class=" nav-itms"><i class="fa-brands fa-linkedin-in top-navitms nav-linkden"  aria-label="linkedin"></i></a>
+                                    </li>
+                                    <li class="nav-link">
+                                        <a href="http://www.Snapchat.com" class=" nav-itms"><i class="fa-brands fa-snapchat nav-snapchat top-navitms"  aria-label="Snapchat"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 rich_pics_heading">
+                                <span> RICH PICKS Giveaways</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </nav>
-            <div class="sub-header container-fulid">
+            <div class="sub-header">
                 <div class="container">
                     <div class="row sub-header-row">
-                        <div class="col-xl-2 col-lg-3 col-xs-12">
-                            <a href="index.html"><img src="assest/images/RPD.png" class="rpd-img"></a>
+                        <div class="col-xl-2  col-xs-12">
+                           <div class="navbar-hammer"> <a href="index.html"><img src="assest/images/RPD.png" class="rpd-img"></a>
+                            <a  class="nav-hamburger" onclick="nav_fun()"><i class="fa-solid fa-bars"></i></a></div>
                         </div>
-                        <div class="col-xl-8 col-lg-9 col-xs-12">
+                        <div class="col-xl-8  col-xs-12">
                             <ul class="navbar">
-                                <li class="nav-link"><a href="index.html" class="nav-itms">Home</a></li>
+                                <li class="nav-link"><a href="index.html" class="nav-itms active">Home</a></li>
                                 <li class="nav-link"><a href="blog.html" class="nav-itms">Blog</a></li>
                                 <li class="nav-link"><a href="Richpicks.html" class="nav-itms">Rick Pics</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">Watchlist</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">Education Center</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">CEO Interviews</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">Community</a></li>
-
+                                <a href="#" class="rd-btn btn-lg-screen mt-10">Login</a>
                             </ul>
                         </div>
                         <div class="col-xl-2 col-xs-12">
-                            <a href="" class="rd-btn">Login</a>
+                            <a href="" class="rd-btn btn-small-screen">Login</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <!--<div class="header-fts">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-10 col-xs-12 search1">
-                            <input type="search" placeholder="Enter your search term">
+            <div class="header-ft">
+                <div class="container-fulid">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 col-xs-12 search">
+                                <input type="search" placeholder="Enter your search term">
                                 <a href="#" class="search-btn"><img src="assest/images/Group42753.png"></a>
-                            <div class="block">
-
                             </div>
                         </div>
                     </div>
                 </div>
-            </div> -->
+            </div>
         </header>
-        <section class=" container-fulid">
+        <section class=" container-fulid richpic_hero_section">
             <div class="container">
                 <div class="row trading-section">
                     <div class="col-lg-8 col-xs-12 tradding-left">
@@ -144,25 +148,25 @@
                                     <div class="col-xl-3 col-sm-6 col-xs-12" id="card-book-section-col">
                                         <div class=" card-book" id="card-book">
                                             <img src="assest/images/stock_book68.png" alt="image not load">
-                                            <p>RICH PICKS DAILY <br> TRAINING MANUAL</p>
+                                            <p> <span>RICH PICKS DAILY <br> TRAINING MANUAL </span></p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-sm-6 col-xs-12" id="card-book-section-col">
                                         <div class="card-book" id="card-book">
                                             <img src="assest/images/share_book39.png" alt="image not load">
-                                            <p>Share Structure</p>
+                                            <p><span>Share Structure</span></p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-sm-6 col-xs-12" id="card-book-section-col">
                                         <div class="card-book " id="card-book">
                                             <img src="assest/images/Trading_book40.png" alt="image not load">
-                                            <p>CANDLE STICK <br> BIBLE BY M.H</p>
+                                            <p><span>CANDLE STICK <br> BIBLE BY M.H</span></p>
                                         </div>
                                     </div>
                                     <div class="col-xl-3 col-sm-6 col-xs-12" id="card-book-section-col">
                                         <div class="card-book " id="card-book">
                                             <img src="assest/images/Forex_book35.png" alt="image not load">
-                                            <p>FOREX TRAINING<br> MANUAL</p>
+                                            <p><span>FOREX TRAINING<br> MANUAL</span></p>
                                         </div>
                                     </div>
                                 </div>
@@ -329,11 +333,11 @@
                             <div class="col-md-6 col-xs-12" id="asidpragraph">
                                 <div class="row row-border">
                                     <div class="col-xs-4">
-                                        <img src="assest/images/tab.png" alt="path is wrong">
+                                        <img class="row-border-img" src="assest/images/tab.png" alt="path is wrong">
                                     </div>
                                     <div class="col-xs-8" id="asidpragraph2">
                                         <p class="tab-pragraph">Ullamcorper sed diam enim, consequat, in sed</p>
-                                        <span><img src="assest/images/clock.png " class="clock-imgs">Jun 2, 2021</span>
+                                        <span><img  src="assest/images/clock.png " class="clock-imgs">Jun 2, 2021</span>
                                         <span class="span-imgs"><img src="assest/images/user.png " class="user-imgs">Ankit Singhania</span>
                                     </div>
                                 </div>
@@ -341,7 +345,7 @@
                             <div class="col-md-6 col-xs-12" id="asidpragraph3">
                                 <div class="row row-border">
                                     <div class="col-xs-4">
-                                        <img src="assest/images/unsplash_NnjM.png" alt="path is wrong">
+                                        <img class="row-border-img" src="assest/images/unsplash_NnjM.png" alt="path is wrong">
                                     </div>
                                     <div class="col-xs-8" id="asidpragraph2">
                                         <p class="tab-pragraph">Leo urna, posuere nunc pretium, varius massa</p>
@@ -355,11 +359,11 @@
                             <div class="col-md-6 col-xs-12" id="asidpragraph">
                                 <div class="row row-border">
                                     <div class="col-xs-4">
-                                        <img src="assest/images/RsyXmHGpI.png" alt="path is wrong">
+                                        <img class="row-border-img" src="assest/images/RsyXmHGpI.png" alt="path is wrong">
                                     </div>
                                     <div class="col-xs-8" id="asidpragraph2">
                                         <p class="tab-pragraph">Et amet egestas faucibus pharetra ac augue</p>
-                                        <span><img src="assest/images/clock.png " class="clock-imgs">Jun 2, 2021</span>
+                                        <span><img  src="assest/images/clock.png " class="clock-imgs">Jun 2, 2021</span>
                                         <span class="span-imgs"><img src="assest/images/user.png " class="user-imgs">Ankit Singhania</span>
                                     </div>
                                 </div>
@@ -367,7 +371,7 @@
                             <div class="col-md-6 col-xs-12" id="asidpragraph3">
                                 <div class="row row-border">
                                     <div class="col-xs-4">
-                                        <img src="assest/images/23.png" alt="path is wrong">
+                                        <img class="row-border-img" src="assest/images/23.png" alt="path is wrong">
                                     </div>
                                     <div class="col-xs-8" id="asidpragraph2">
                                         <p class="tab-pragraph">Nibh feugiat amet, quis ullamcorper nisi eget</p>
@@ -559,7 +563,7 @@
                                 </div>
                                 <div class="row latesnews-asidebar1">
                                     <div class=" col-xs-4 ">
-                                        <img src="assest/images/popular_article-img1.png" class="asidebar1-img ">
+                                        <img class="row-border-img" src="assest/images/popular_article-img1.png" class="asidebar1-img ">
                                     </div>
                                     <div class=" col-xs-8 " id="asidpragraph1">
                                         <p class="asidpragraph ">Element Nutritional Sciences Makes First Shipments to WALGREENS</p>
@@ -569,7 +573,7 @@
                                 </div>
                                 <div class="row latesnews-asidebar1">
                                     <div class=" col-xs-4 ">
-                                        <img src="assest/images/popular_article-img2.png" class="asidebar1-img ">
+                                        <img class="row-border-img" src="assest/images/popular_article-img2.png" class="asidebar1-img ">
                                     </div>
                                     <div class=" col-xs-8 " id="asidpragraph1">
                                         <p class="asidpragraph ">Element Nutritional Sciences Makes First Shipments to WALGREENS</p>
@@ -579,7 +583,7 @@
                                 </div>
                                 <div class="row latesnews-asidebar1">
                                     <div class=" col-xs-4 ">
-                                        <img src="assest/images/popular_article-img3.png" class="asidebar1-img ">
+                                        <img class="row-border-img" src="assest/images/popular_article-img3.png" class="asidebar1-img ">
                                     </div>
                                     <div class=" col-xs-8 " id="asidpragraph1">
                                         <p class="asidpragraph1 ">Element Nutritional Sciences Makes First Shipments to WALGREENS</p>
@@ -589,7 +593,7 @@
                                 </div>
                                 <div class="row latesnews-asidebar1">
                                     <div class=" col-xs-4 ">
-                                        <img src="assest/images/popular_article-img4.png" class="asidebar1-img ">
+                                        <img class="row-border-img" src="assest/images/popular_article-img4.png" class="asidebar1-img ">
                                     </div>
                                     <div class=" col-xs-8 " id="asidpragraph1">
                                         <p class="asidpragraph1 ">Element Nutritional Sciences Makes First Shipments to WALGREENS</p>
@@ -599,7 +603,7 @@
                                 </div>
                                 <div class="row latesnews-asidebar1">
                                     <div class=" col-xs-4 ">
-                                        <img src="assest/images/popular_article-img5.png" class="asidebar1-img ">
+                                        <img class="row-border-img" src="assest/images/popular_article-img5.png" class="asidebar1-img ">
                                     </div>
                                     <div class=" col-xs-8 " id="asidpragraph1">
                                         <p class="asidpragraph1 ">Element Nutritional Sciences Makes First Shipments to WALGREENS</p>
@@ -609,7 +613,7 @@
                                 </div>
                                 <div class="row latesnews-asidebar1">
                                     <div class=" col-xs-4 ">
-                                        <img src="assest/images/popular_article-img6.png" class="asidebar1-img ">
+                                        <img class="row-border-img" src="assest/images/popular_article-img6.png" class="asidebar1-img ">
                                     </div>
                                     <div class=" col-xs-8 " id="asidpragraph1">
                                         <p class="asidpragraph1 ">Element Nutritional Sciences Makes First Shipments to WALGREENS</p>
@@ -697,6 +701,7 @@
         <!--Footer end-->
 
     </main>
+    <script src="assest/js/Script.js"></script>
 </body>
 
 </html>

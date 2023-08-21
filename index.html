@@ -18,7 +18,7 @@
                 <div class="container-fulid">
                     <div class="container">
                         <div class="row main-nav">
-                            <div class="col-sm-6 col-xs-12">
+                            <div class="col-sm-6 social_link">
                                 <ul class="navbar-top">
                                     <li class="nav-link">
                                         <a href="http://www.facebook.com" class="nav-itms"><i class="fa-brands fa-facebook-f top-navitms"  aria-label="facebook" ></i></a>
@@ -40,7 +40,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <div class="col-sm-6 col-xs-12">
+                            <div class="col-sm-6 rich_pics_heading">
                                 <span> RICH PICKS Giveaways</span>
                             </div>
                         </div>
@@ -50,23 +50,24 @@
             <div class="sub-header">
                 <div class="container">
                     <div class="row sub-header-row">
-                        <div class="col-xl-2 col-lg-3 col-xs-12">
-                            <a href="index.html"><img src="assest/images/RPD.png" class="rpd-img"></a>
+                        <div class="col-xl-2  col-xs-12">
+                           <div class="navbar-hammer"> <a href="index.html"><img src="assest/images/RPD.png" class="rpd-img"></a>
+                            <a  class="nav-hamburger" onclick="nav_fun()"><i class="fa-solid fa-bars"></i></a></div>
                         </div>
-                        <div class="col-xl-8 col-lg-9 col-xs-12">
+                        <div class="col-xl-8  col-xs-12">
                             <ul class="navbar">
-                                <li class="nav-link"><a href="index.html" class="nav-itms">Home</a></li>
+                                <li class="nav-link"><a href="index.html" class="nav-itms active">Home</a></li>
                                 <li class="nav-link"><a href="blog.html" class="nav-itms">Blog</a></li>
                                 <li class="nav-link"><a href="Richpicks.html" class="nav-itms">Rick Pics</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">Watchlist</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">Education Center</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">CEO Interviews</a></li>
                                 <li class="nav-link"><a href="" class="nav-itms">Community</a></li>
-
+                                <a href="#" class="rd-btn btn-lg-screen mt-10">Login</a>
                             </ul>
                         </div>
                         <div class="col-xl-2 col-xs-12">
-                            <a href="" class="rd-btn">Login</a>
+                            <a href="" class="rd-btn btn-small-screen">Login</a>
                         </div>
                     </div>
                 </div>
@@ -712,29 +713,36 @@
                             </div>
                             <div class="col-lg-2 col-md-6 col-xs-12 rich-pics-daily ft ">
                                 <h5>Rich Picks Daily</h5>
-                                <p>About Us</p>
-                                <p>Members</p>
-                                <p>Affiliate Program</p>
-                                <p>FAQ</p>
-                                <p>Contact us</p>
-                                <p>Join the Club
-                                </p>
-
+                                <ul>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Members</a></li>
+                                    <li><a href="#">Affiliate Program</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Contact us</a></li>
+                                    <li><a href="#">Join the Club
+                                </a></li>
+                                </ul>
                             </div>
                             <div class="col-lg-2 col-md-6 col-xs-12 rich-learning ft ">
                                 <h5>Learning</h5>
-                                <p>Rich Picks</p>
-                                <p>Blog</p>
-                                <p>CEO Interviews
-                                </p>
-                                <p>Forum</p>
-                                <p>Education Center
-                                </p>
+                               <ul>
+                                <li><a href="#">Rich Picks</a></li>
+                                 <li><a href="#">Blog</a></li>
+                                 <li><a href="#">CEO Interviews
+                                </a></li>
+                                 <li><a href="#">Forum</a></li>
+                                 <li><a href="#">Education Center
+                                </a></li>
+                            
+                               </ul>
                             </div>
                             <div class="col-lg-3 col-md-6 col-xs-12 ft ">
                                 <h5>Get Regular Updates From<br> Rich Picks Daily</h5>
                                 <div class="email ">
+                                    <div class="input_ft">
                                     <input type="email " class=" " placeholder="Email address "><a href=" " class="ft-btn "><i class="fa-solid fa-arrow-right ft-font "></i></a>
+
+                                    </div>
                                     <div class="contect ">
                                         <a href="mailto:support@richpicksdaily.com " aria-label="mail " target="_blank "><i
                                             class="fa fa-envelope "
@@ -753,6 +761,7 @@
         </footer>
         <!--Footer end-->
     </main>
+    <script src="assest/js/Script.js"></script>
 </body>
 
 </html>
